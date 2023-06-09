@@ -35,6 +35,9 @@
 	"packageManager": "yarn@3.4.1",
 	"dependencies": {
 		"@prisma/client": "^4.15.0",
-		"prisma": "^4.15.0"
+		"@trpc/client": "^10.29.1",
+		"@trpc/server": "^10.29.1",
+		"prisma": "^4.15.0",
+		"trpc-sveltekit": "^3.5.12"
 	}
 }

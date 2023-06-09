@@ -471,6 +471,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@trpc/client@npm:^10.29.1":
+  version: 10.29.1
+  resolution: "@trpc/client@npm:10.29.1"
+  peerDependencies:
+    "@trpc/server": 10.29.1
+  checksum: b617edb56e9ec7fa0665703761c666244e58b8a9da5a2fffcdef880cdde7ec8c92c20d1362ac1c836904518d94db247ec286cc17e01fc4eea41b7cafbf3479fe
+  languageName: node
+  linkType: hard
+
+"@trpc/server@npm:^10.29.1":
+  version: 10.29.1
+  resolution: "@trpc/server@npm:10.29.1"
+  checksum: d31ac9921764aea774ef14ae3d9d4c7cb245582dde7f75facd355732043eb9d697a8584c19377dce9acdf9b21f473917f77842fda29eb77fd604484e23b42ded
+  languageName: node
+  linkType: hard
+
 "@types/chai-subset@npm:^1.3.3":
   version: 1.3.3
   resolution: "@types/chai-subset@npm:1.3.3"
@@ -3205,6 +3221,8 @@ __metadata:
     "@prisma/client": ^4.15.0
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.20.2
+    "@trpc/client": ^10.29.1
+    "@trpc/server": ^10.29.1
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
     eslint: ^8.28.0
@@ -3215,6 +3233,7 @@ __metadata:
     svelte: ^3.54.0
     svelte-check: ^3.0.1
     svelte-preprocess: ^5.0.3
+    trpc-sveltekit: ^3.5.12
     tslib: ^2.4.1
     typescript: ^4.9.3
     vite: ^4.0.0
@@ -3308,6 +3327,19 @@ __metadata:
   version: 3.0.0
   resolution: "totalist@npm:3.0.0"
   checksum: ec499bddfc73d5b6c73f8ff68afd7bed286705797f928a11177fee5d1ee80e9052ffcb434638437702e16864bd5490f437a54f79bfea9564e875d34ed3254bca
+  languageName: node
+  linkType: hard
+
+"trpc-sveltekit@npm:^3.5.12":
+  version: 3.5.12
+  resolution: "trpc-sveltekit@npm:3.5.12"
+  peerDependencies:
+    "@sveltejs/adapter-node": ^1.2.4
+    "@trpc/client": ^10.29.1
+    "@trpc/server": ^10.29.1
+    "@types/ws": ^8.5.4
+    ws: ^8.13.0
+  checksum: 3ba48345c343a67db814d72246204de2851844fce82a82ed97fc07f020498ce9cd073ab77f3c490e561f85244bdd479810e435ee3de4ed739ab85ffc8aecd290
   languageName: node
   linkType: hard
 
