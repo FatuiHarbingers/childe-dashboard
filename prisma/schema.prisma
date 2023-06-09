@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Configuration {
+  guild    String
+  property Configuration_property
+  value    String
+
+  @@id([guild, property])
+}
+
+model Message {
+  author                                  String
+  channel                                 String
+  guild                                   String
+  message                                 String     @id
+  thread                                  String?
+  Starboard_Starboard_originalIdToMessage Starboard? @relation("Starboard_originalIdToMessage")
+  Starboard_Starboard_pinnedIdToMessage   Starboard? @relation("Starboard_pinnedIdToMessage")
+}
+
+model Starboard {
+  originalId                            String  @unique
+  pinnedId                              String  @id
+  Message_Starboard_originalIdToMessage Message @relation("Starboard_originalIdToMessage", fields: [originalId], references: [message])
+  Message_Starboard_pinnedIdToMessage   Message @relation("Starboard_pinnedIdToMessage", fields: [pinnedId], references: [message])
+}
+
+model TwitchFollows {
+  channel  String
+  mentions Json?
+  guild    String
+  user     String
+
+  @@id([channel, user])
+}
+
+enum Configuration_property {
+  StarboardChannel
+  StarboardCount
+}
