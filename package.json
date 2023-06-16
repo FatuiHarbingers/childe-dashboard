@@ -34,10 +34,17 @@
 	"type": "module",
 	"packageManager": "yarn@3.4.1",
 	"dependencies": {
+		"@discordjs/rest": "^1.7.1",
 		"@prisma/client": "^4.15.0",
+		"@sapphire/duration": "^1.1.0",
+		"@sapphire/shapeshift": "^3.9.2",
 		"@trpc/client": "^10.29.1",
 		"@trpc/server": "^10.29.1",
+		"discord-api-types": "^0.37.43",
+		"ioredis": "^5.3.2",
+		"normalize.css": "^8.0.1",
 		"prisma": "^4.15.0",
-		"trpc-sveltekit": "^3.5.12"
+		"trpc-sveltekit": "^3.5.12",
+		"ts-dotenv": "^0.9.1"
 	}
 }
