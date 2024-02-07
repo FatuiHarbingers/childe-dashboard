@@ -546,19 +546,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:^10.29.1":
-  version: 10.29.1
-  resolution: "@trpc/client@npm:10.29.1"
+"@trpc/client@npm:^10.45.1":
+  version: 10.45.1
+  resolution: "@trpc/client@npm:10.45.1"
   peerDependencies:
-    "@trpc/server": 10.29.1
-  checksum: b617edb56e9ec7fa0665703761c666244e58b8a9da5a2fffcdef880cdde7ec8c92c20d1362ac1c836904518d94db247ec286cc17e01fc4eea41b7cafbf3479fe
+    "@trpc/server": 10.45.1
+  checksum: 14fd5d7d6e659303797459975780636ef16045d21f642b51730e61fcba9e871d5a4656b244f38dff9f391d0ad67ff40cea201688613a08a4c31207ab9dc4abc4
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:^10.29.1":
-  version: 10.29.1
-  resolution: "@trpc/server@npm:10.29.1"
-  checksum: d31ac9921764aea774ef14ae3d9d4c7cb245582dde7f75facd355732043eb9d697a8584c19377dce9acdf9b21f473917f77842fda29eb77fd604484e23b42ded
+"@trpc/server@npm:^10.45.1":
+  version: 10.45.1
+  resolution: "@trpc/server@npm:10.45.1"
+  checksum: 62317ce75c14fd6a5701341e85448e2706412a95a008a50a78a78503e09bad3448e0b11c423676529ec060c3565f2e31893555161b72c166c45a5920c137c848
   languageName: node
   linkType: hard
 
@@ -3432,8 +3432,8 @@ __metadata:
     "@sapphire/shapeshift": ^3.9.2
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.20.2
-    "@trpc/client": ^10.29.1
-    "@trpc/server": ^10.29.1
+    "@trpc/client": ^10.45.1
+    "@trpc/server": ^10.45.1
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
     discord-api-types: ^0.37.43
