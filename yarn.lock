@@ -1241,10 +1241,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.37.41, discord-api-types@npm:^0.37.43":
+"discord-api-types@npm:^0.37.41":
   version: 0.37.43
   resolution: "discord-api-types@npm:0.37.43"
   checksum: 716bafb6b2881fd0bb36edae67ec04d08e393ff80b762c74376a40d99cf6dace71d9b13242cea95df1fb9db3aa64fd3e94719dc983420e3b3e139f0e77258489
+  languageName: node
+  linkType: hard
+
+"discord-api-types@npm:^0.37.76":
+  version: 0.37.76
+  resolution: "discord-api-types@npm:0.37.76"
+  checksum: a96f21875a294f2c5f2bc3cfe21748f29b91c7843288f40b3ba686db75cf84b72309113d8074c58af8071405e3ac3abdbebd253bcd1dc899049cdf086ba8303b
   languageName: node
   linkType: hard
 
@@ -3436,7 +3443,7 @@ __metadata:
     "@trpc/server": ^10.29.1
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
-    discord-api-types: ^0.37.43
+    discord-api-types: ^0.37.76
     eslint: ^8.28.0
     eslint-plugin-svelte3: ^4.0.0
     ioredis: ^5.3.2
