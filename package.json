@@ -41,7 +41,7 @@
 		"@trpc/client": "^10.29.1",
 		"@trpc/server": "^10.29.1",
 		"discord-api-types": "^0.37.43",
-		"ioredis": "^5.3.2",
+		"ioredis": "^5.4.1",
 		"normalize.css": "^8.0.1",
 		"prisma": "^4.15.0",
 		"trpc-sveltekit": "^3.5.12",
