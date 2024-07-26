@@ -3374,27 +3374,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^5.0.3":
-  version: 5.0.3
-  resolution: "svelte-preprocess@npm:5.0.3"
-  dependencies:
-    "@types/pug": ^2.0.6
-    detect-indent: ^6.1.0
-    magic-string: ^0.27.0
-    sorcery: ^0.11.0
-    strip-indent: ^3.0.0
+"svelte-preprocess@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "svelte-preprocess@npm:6.0.2"
   peerDependencies:
     "@babel/core": ^7.10.2
     coffeescript: ^2.5.1
     less: ^3.11.3 || ^4.0.0
     postcss: ^7 || ^8
-    postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
+    postcss-load-config: ">=3"
     pug: ^3.0.0
     sass: ^1.26.8
-    stylus: ^0.55.0
+    stylus: ">=0.55"
     sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-    svelte: ^3.23.0
-    typescript: ">=3.9.5 || ^4.0.0 || ^5.0.0"
+    svelte: ^4.0.0 || ^5.0.0-next.100 || ^5.0.0
+    typescript: ^5.0.0
   peerDependenciesMeta:
     "@babel/core":
       optional: true
@@ -3416,7 +3410,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: fedec5f8ce90ed11c3408d739e1403b0df1d32206702e3607043a6d06e6007d2f3d9efc6c261b2c2cb4f6e48311e2bad12d42f1de05acc4f908100735e29fac9
+  checksum: 8f62c954803a66f564decbc7850334dd199c31507a15aee4ecb4ef7b09bffdd2e42a44ec7a5afdcb6a2052c68bca5794b67882776e4f955b6512683eadb7b5e2
   languageName: node
   linkType: hard
 
@@ -3446,7 +3440,7 @@ __metadata:
     sass: ^1.59.3
     svelte: ^3.54.0
     svelte-check: ^3.0.1
-    svelte-preprocess: ^5.0.3
+    svelte-preprocess: ^6.0.2
     trpc-sveltekit: ^3.5.12
     ts-dotenv: ^0.9.1
     tslib: ^2.4.1
