@@ -34,7 +34,7 @@
 	"type": "module",
 	"packageManager": "yarn@3.4.1",
 	"dependencies": {
-		"@discordjs/rest": "^1.7.1",
+		"@discordjs/rest": "^2.4.0",
 		"@prisma/client": "^4.15.0",
 		"@sapphire/duration": "^1.1.0",
 		"@sapphire/shapeshift": "^3.9.2",
