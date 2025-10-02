@@ -464,14 +464,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sveltejs/adapter-auto@npm:2.0.0"
-  dependencies:
-    import-meta-resolve: ^2.2.0
+"@sveltejs/adapter-auto@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@sveltejs/adapter-auto@npm:6.1.1"
   peerDependencies:
-    "@sveltejs/kit": ^1.0.0
-  checksum: 7feeb24f5253b3ec4768c130f3498614e26d146e5b45560d5f3f8e3345a821f1c24fff578348fd756625af484f5b1079d33f6ecd1d43d395a192d2d193b5ab0f
+    "@sveltejs/kit": ^2.0.0
+  checksum: b8cabadd1ac780ac291c000bd69341bf82835efbf07c30855a41b972a46d43ef49fccabcf42054d3522bca51b129b4682d539b9903353a69b606ca3d3642fbf4
   languageName: node
   linkType: hard
 
@@ -1931,13 +1929,6 @@ __metadata:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: 2cacfad06e652b1edc50be650f7ec3be08c5e5a6f6d12d035c440a42a8cc028e60a5b99ca08a77ab4d6b1346da7d971915828f33cdab730d3d42f08242d09baa
-  languageName: node
-  linkType: hard
-
-"import-meta-resolve@npm:^2.2.0":
-  version: 2.2.2
-  resolution: "import-meta-resolve@npm:2.2.2"
-  checksum: 3a5910a6f914b5f06b307d7d1c25710bc56f12e21e923d5b2180dd0d53c6c2d51e7b55df26f168b63f5670babcaca9422b7a9429e877bbb8c1997d79bd65882b
   languageName: node
   linkType: hard
 
@@ -3430,7 +3421,7 @@ __metadata:
     "@prisma/client": ^4.15.0
     "@sapphire/duration": ^1.1.0
     "@sapphire/shapeshift": ^3.9.2
-    "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-auto": ^6.1.1
     "@sveltejs/kit": ^1.20.2
     "@trpc/client": ^10.29.1
     "@trpc/server": ^10.29.1
