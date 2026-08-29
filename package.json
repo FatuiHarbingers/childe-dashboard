@@ -43,7 +43,7 @@
 		"discord-api-types": "^0.37.43",
 		"ioredis": "^5.3.2",
 		"normalize.css": "^8.0.1",
-		"prisma": "^4.15.0",
+		"prisma": "^4.16.2",
 		"trpc-sveltekit": "^3.5.12",
 		"ts-dotenv": "^0.9.1"
 	}
