@@ -382,19 +382,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.28.1":
-  version: 1.31.2
-  resolution: "@playwright/test@npm:1.31.2"
+"@playwright/test@npm:^1.64.0":
+  version: 1.64.0
+  resolution: "@playwright/test@npm:1.64.0"
   dependencies:
-    "@types/node": "*"
-    fsevents: 2.3.2
-    playwright-core: 1.31.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
+    playwright: 1.64.0
   bin:
     playwright: cli.js
-  checksum: 5459ee0ce15b9a54337f4c26e2ee2d29c11e67e6207c167158eb180a4bea6659c988a2897f51dbebf591fc879f0d81f417e70936b9d8a001448c957939882588
+  checksum: 0f1af5c329060d18e746347a9d22a31bfb04fb586f091108ce31adfaa8fee1079a240166776a51f648f4d7757c15f4f4bd6a3ce9e8aa7abe0323ef2732944d18
   languageName: node
   linkType: hard
 
@@ -1662,7 +1657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:2.3.2, fsevents@npm:~2.3.2":
+"fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -1672,7 +1667,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
+"fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
@@ -2675,12 +2670,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.31.2":
-  version: 1.31.2
-  resolution: "playwright-core@npm:1.31.2"
+"playwright-core@npm:1.64.0":
+  version: 1.64.0
+  resolution: "playwright-core@npm:1.64.0"
+  bin:
+    playwright-core: cli.js
+  checksum: 60384301a8acd54dc91d8053e76616406db540b322f19f617c77ae4db8e6d3dc2f9f7b6ed0999dcbf455c65130316897c7f5c721b4591734ec237e121a322561
+  languageName: node
+  linkType: hard
+
+"playwright@npm:1.64.0":
+  version: 1.64.0
+  resolution: "playwright@npm:1.64.0"
+  dependencies:
+    playwright-core: 1.64.0
   bin:
     playwright: cli.js
-  checksum: bf1257b7d80b9d027c99cbfa7ab9d47a2110ec804422b3e3d623bbb3c43e06df7bec4764ca1d852a6d62c76e35c8776efb19941f42ce738db9bc92e7f1b6281c
+  checksum: fa6aa08097d305bffc99613ae5484651670e2210bb9d7bfb268570d9d957feccce975b7f74fb6042f4e714e05fabcfd54166e48c3ac88f68a59e7d308e9663af
   languageName: node
   linkType: hard
 
@@ -3426,7 +3432,7 @@ __metadata:
   dependencies:
     "@bitomic/eslint-config": ^1.2.0
     "@discordjs/rest": ^1.7.1
-    "@playwright/test": ^1.28.1
+    "@playwright/test": ^1.64.0
     "@prisma/client": ^4.15.0
     "@sapphire/duration": ^1.1.0
     "@sapphire/shapeshift": ^3.9.2
