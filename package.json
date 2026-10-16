@@ -35,7 +35,7 @@
 	"packageManager": "yarn@3.4.1",
 	"dependencies": {
 		"@discordjs/rest": "^1.7.1",
-		"@prisma/client": "^4.15.0",
+		"@prisma/client": "^4.16.2",
 		"@sapphire/duration": "^1.1.0",
 		"@sapphire/shapeshift": "^3.9.2",
 		"@trpc/client": "^10.29.1",
