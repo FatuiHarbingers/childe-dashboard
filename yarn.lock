@@ -440,10 +440,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/duration@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@sapphire/duration@npm:1.1.0"
-  checksum: bf145249804560e20621fb593110dc4084a7597f04669695250921ccc7ca2e867a1f0a914c3fdfc9d120ee13689668a104b86861f312ffcce293e9551f4359c9
+"@sapphire/duration@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/duration@npm:2.0.0"
+  checksum: fd13ecbb5f0b80087f849caa7a279e2b6307febe87270cec48cd5e226e5b6758c4204a4e6a7c052a2b08fc5f12819a26b5954ab6c0b6428e04046078c93f2821
   languageName: node
   linkType: hard
 
@@ -3428,7 +3428,7 @@ __metadata:
     "@discordjs/rest": ^1.7.1
     "@playwright/test": ^1.28.1
     "@prisma/client": ^4.15.0
-    "@sapphire/duration": ^1.1.0
+    "@sapphire/duration": ^2.0.0
     "@sapphire/shapeshift": ^3.9.2
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.20.2
