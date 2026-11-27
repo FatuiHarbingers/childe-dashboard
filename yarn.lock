@@ -546,19 +546,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:^10.29.1":
-  version: 10.29.1
-  resolution: "@trpc/client@npm:10.29.1"
+"@trpc/client@npm:^11.32.2":
+  version: 11.32.2
+  resolution: "@trpc/client@npm:11.32.2"
   peerDependencies:
-    "@trpc/server": 10.29.1
-  checksum: b617edb56e9ec7fa0665703761c666244e58b8a9da5a2fffcdef880cdde7ec8c92c20d1362ac1c836904518d94db247ec286cc17e01fc4eea41b7cafbf3479fe
+    "@trpc/server": 11.32.2
+    typescript: ">=5.7.2"
+  checksum: 4253a18d7c6e1cd5cb0afa66346ca844262aa41cdad94c60e1ed808fc0922b060f2ea468e78ef9ab6da13a2b881858988a4bd8f9067e45a4027c6f16aea76880
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:^10.29.1":
-  version: 10.29.1
-  resolution: "@trpc/server@npm:10.29.1"
-  checksum: d31ac9921764aea774ef14ae3d9d4c7cb245582dde7f75facd355732043eb9d697a8584c19377dce9acdf9b21f473917f77842fda29eb77fd604484e23b42ded
+"@trpc/server@npm:^11.32.2":
+  version: 11.32.2
+  resolution: "@trpc/server@npm:11.32.2"
+  peerDependencies:
+    "@types/aws-lambda": "*"
+    "@types/express": "*"
+    "@types/ws": "*"
+    fastify: "*"
+    next: "*"
+    typescript: ">=5.7.2"
+  peerDependenciesMeta:
+    "@types/aws-lambda":
+      optional: true
+    "@types/express":
+      optional: true
+    "@types/ws":
+      optional: true
+    fastify:
+      optional: true
+    next:
+      optional: true
+  checksum: 26b14b9959083737c121a9552923c4cbe7850df2e9d65997602e15e48698de70e72e9966906ac0ca74171af0cfd5bc40c40304ad90d9bbf349b77957cbe69740
   languageName: node
   linkType: hard
 
@@ -3432,8 +3451,8 @@ __metadata:
     "@sapphire/shapeshift": ^3.9.2
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.20.2
-    "@trpc/client": ^10.29.1
-    "@trpc/server": ^10.29.1
+    "@trpc/client": ^11.32.2
+    "@trpc/server": ^11.32.2
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
     discord-api-types: ^0.37.43
